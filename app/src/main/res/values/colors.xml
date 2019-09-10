@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#D3040C</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="progress_bar">#D3040C</color>
+    <color name="status_bar">#FFFFFF</color>
+    <color name="theme_light">#D3040C</color>
+
+    <color name="header">#D3040C</color>
+
+    <color name="white_font">#FFFFFF</color>
+    <color name="white_button">#FFFFFF</color>
+    <color name="white_image">#FFFFFF</color>
+    <color name="white_background">#FFFFFF</color>
+    <color name="white_line">#FFFFFF</color>
+
+    <color name="black_font">#000000</color>
+    <color name="black_button">#000000</color>
+    <color name="black_image">#000000</color>
+    <color name="black_background">#000000</color>
+    <color name="black_line">#000000</color>
+
+    <color name="theme_font">#2888cb</color>
+    <color name="theme_button">#2888cb</color>
+    <color name="theme_image">#2888cb</color>
+    <color name="theme_background">#2888cb</color>
+    <color name="theme_line">#2888cb</color>
+
+    <color name="red_font">#D3040C</color>
+    <color name="red_button">#D3040C</color>
+    <color name="red_image">#D3040C</color>
+    <color name="red_background">#D3040C</color>
+    <color name="red_line">#D3040C</color>
+
+    <color name="maroon">#B5383A</color>
+
+    <color name="grey_verification">#5C5C5C</color>
+    <color name="grey_font">#969696</color>
+    <color name="light_grey">#C2C2C2</color>
+    <color name="much_light_grey">#F2F2F2</color>
+    <color name="light_dark_grey">#E6E6E6</color>
+
+    <color name="green_line">#0FA364</color>
+    <color name="green_font">#0FA364</color>
+
+    <color name="pink">#ED8C8D</color>
+
+</resources>

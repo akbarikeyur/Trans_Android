@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollIndicators="none"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_20sdp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/enter_veri_code"
+                android:textColor="@color/black_font"
+                android:textSize="@dimen/_20sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="@dimen/_20sdp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/_15sdp">
+
+                    <EditText
+                        android:id="@+id/edt_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:maxLength="1"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/grey_verification"
+                        android:textCursorDrawable="@drawable/drawable_cursor_red"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@color/red_line" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/_15sdp">
+
+                    <EditText
+                        android:id="@+id/edt_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:maxLength="1"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/grey_verification"
+                        android:textCursorDrawable="@drawable/drawable_cursor_red"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@color/red_line" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:paddingRight="@dimen/_15sdp">
+
+                    <EditText
+                        android:id="@+id/edt_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:maxLength="1"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/grey_verification"
+                        android:textCursorDrawable="@drawable/drawable_cursor_red"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@color/red_line" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edt_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:inputType="numberDecimal"
+                        android:maxLength="1"
+                        android:padding="@dimen/_5sdp"
+                        android:textColor="@color/grey_verification"
+                        android:textCursorDrawable="@drawable/drawable_cursor_red"
+                        android:textSize="@dimen/_20sdp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="@dimen/_25sdp"
+                        android:layout_height="@dimen/_1sdp"
+                        android:background="@color/red_line" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:paddingBottom="@dimen/_30sdp"
+                android:text="@string/code_send_to_your_email"
+                android:textColor="@color/grey_font"
+                android:textSize="@dimen/_11sdp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:paddingBottom="@dimen/_20sdp">
+
+                <TextView
+                    android:id="@+id/txt_done"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/drawable_round_corner_red"
+                    android:gravity="center"
+                    android:padding="@dimen/_9sdp"
+                    android:text="@string/done"
+                    android:textColor="@color/white_font"
+                    android:textSize="@dimen/txt_btn" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_not_get_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingTop="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:paddingLeft="@dimen/_20sdp"
+                android:paddingRight="@dimen/_20sdp"
+                android:text="@string/not_get_code"
+                android:textColor="@color/black_font"
+                android:textSize="@dimen/txt_lbl" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

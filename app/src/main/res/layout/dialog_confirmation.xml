@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="false"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+    <LinearLayout
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/ll_main"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgv_close"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/close" />
+
+        <TextView
+            android:id="@+id/txt_message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:textColor="@color/black_font"
+            android:textSize="@dimen/txt_lbl"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/txt_no"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_round_corner_line_red"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/no"
+                android:textColor="@color/red_font"
+                android:textSize="@dimen/txt_btn" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_10sdp" />
+
+            <TextView
+                android:id="@+id/txt_yes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_round_corner_red"
+                android:gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="@string/yes"
+                android:textColor="@color/white_font"
+                android:textSize="@dimen/txt_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

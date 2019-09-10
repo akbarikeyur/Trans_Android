@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:id="@+id/fl_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/header_elevation">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_70sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_topbar" />
+
+        <ImageView
+            android:id="@+id/imgv_back"
+            android:layout_width="@dimen/header_image"
+            android:layout_height="@dimen/header_image"
+            android:layout_gravity="left|center_vertical"
+            android:padding="@dimen/header_image_padding"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/imgv_info"
+            android:layout_width="@dimen/header_image"
+            android:layout_height="@dimen/header_image"
+            android:layout_gravity="right|center_vertical"
+            android:padding="@dimen/_5sdp"
+            android:src="@drawable/info" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/_5sdp">
+
+            <TextView
+                android:id="@+id/txt_from_to"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/_5sdp"
+                android:text="Atlanta-Athens"
+                android:textColor="@color/white_font"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/txt_depart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Depart 07 April"
+                android:textColor="@color/white_font"
+                android:textSize="@dimen/_12sdp" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</LinearLayout>

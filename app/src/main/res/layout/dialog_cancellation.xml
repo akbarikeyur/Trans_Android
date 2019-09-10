@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardUseCompatPadding="false">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="@dimen/_250sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/imgv_close"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_gravity="right"
+            android:padding="@dimen/_3sdp"
+            android:src="@drawable/close" />
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cancellation Policy"
+            android:textColor="@color/grey_verification"
+            android:textSize="@dimen/txt_lbl"
+            android:textStyle="bold" />
+
+
+
+            <TextView
+                android:padding="@dimen/_10sdp"
+                android:ellipsize="end"
+                android:id="@+id/txt_message"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey_font"/>
+
+
+        <TextView
+            android:id="@+id/txt_read_more"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/_10sdp"
+            android:text="Read More"
+            android:textColor="@color/red_font"
+            android:textSize="@dimen/_11sdp" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

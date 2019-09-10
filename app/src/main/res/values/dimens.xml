@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="header_text">@dimen/_15sdp</dimen>
+    <dimen name="header_text_padding">@dimen/_10sdp</dimen>
+    <dimen name="header_image">@dimen/_30sdp</dimen>
+    <dimen name="header_image_padding">@dimen/_7sdp</dimen>
+    <dimen name="header_elevation">@dimen/_5sdp</dimen>
+
+
+
+    <dimen name="edt_txt">@dimen/_13sdp</dimen>
+    <dimen name="txt_lbl">@dimen/_13sdp</dimen>
+    <dimen name="txt_btn">@dimen/_13sdp</dimen>
+
+</resources>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_small_ic_top_bar_with_1_title" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true"
+        android:overScrollMode="never"
+        android:scrollIndicators="none"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/ll_ticket"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/light_dark_grey"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/drawable_round_corner_pink_upper_side"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_70sdp"
+                    android:layout_weight="0.5"
+                    android:padding="@dimen/_12sdp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/logo_login" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="left"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:text="Ticket Number"
+                            android:textColor="@color/black_font"
+                            android:textSize="@dimen/txt_lbl" />
+
+                        <TextView
+                            android:id="@+id/txt_tkt_number"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:paddingBottom="@dimen/_5sdp"
+                            android:singleLine="true"
+                            android:text="Ticket Number"
+                            android:textColor="@color/black_font"
+                            android:textSize="@dimen/txt_lbl" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/white_background"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/_7sdp">
+
+                    <TextView
+                        android:id="@+id/txt_usr_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:singleLine="true"
+                        android:text="John Smith"
+                        android:textColor="@color/black_font"
+                        android:textSize="@dimen/txt_lbl" />
+
+                    <TextView
+                        android:id="@+id/txt_usr_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="end"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_3sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_5sdp"
+                        android:singleLine="true"
+                        android:text="John@gmail.com"
+                        android:textColor="@color/grey_font"
+                        android:textSize="@dimen/txt_lbl" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/much_light_grey"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:text="@string/depart"
+                            android:textColor="@color/black_font"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_20sdp"
+                            android:layout_height="@dimen/_20sdp"
+                            android:padding="@dimen/_4sdp"
+                            android:src="@drawable/calendar" />
+
+                        <TextView
+                            android:id="@+id/txt_depart_date"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_5sdp"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:text="08 April 2019"
+                            android:textColor="@color/red_font"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_depart_day"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="@dimen/_5sdp"
+                            android:text="Tuesday"
+                            android:textColor="@color/black_font"
+                            android:textSize="@dimen/_11sdp"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingTop="@dimen/_2sdp"
+                        android:paddingRight="@dimen/_10sdp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingRight="@dimen/_5sdp">
+
+                            <TextView
+                                android:id="@+id/txt_from_depart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="@dimen/_2sdp"
+                                android:text="Atlanta"
+                                android:textColor="@color/grey_font"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/txt_from_time_depart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="13:00"
+                                android:textColor="@color/red_font"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/_40sdp"
+                                android:src="@drawable/ic_bus_tour" />
+
+                            <TextView
+                                android:id="@+id/txt_duration_depart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom|center"
+                                android:gravity="center"
+                                android:text="8hrs 10min"
+                                android:textColor="@color/grey_font"
+                                android:textSize="@dimen/_10sdp"
+                                android:textStyle="bold" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:orientation="vertical"
+                            android:paddingLeft="@dimen/_5sdp">
+
+                            <TextView
+                                android:id="@+id/txt_to_depart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="@dimen/_2sdp"
+                                android:text="Athens"
+                                android:textColor="@color/grey_font"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/txt_to_time_depart"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="15:00"
+                                android:textColor="@color/red_font"
+                                android:textSize="@dimen/_12sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:paddingRight="@dimen/_10sdp"
+                        android:paddingBottom="@dimen/_5sdp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/_2sdp"
+                            android:text="Departure Time"
+                            android:textColor="@color/black_font"
+                            android:textSize="@dimen/_12sdp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right"
+                            android:paddingBottom="@dimen/_2sdp"
+                            android:text="Arrival Time"
+                            android:textColor="@color/black_font"
+                            android:textSize="@dimen/_12sdp" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_return"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@color/much_light_grey"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:text="@string/returnn"
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_11sdp"
+                                android:textStyle="bold" />
+
+                            <ImageView
+                                android:layout_width="@dimen/_20sdp"
+                                android:layout_height="@dimen/_20sdp"
+                                android:padding="@dimen/_4sdp"
+                                android:src="@drawable/calendar" />
+
+                            <TextView
+                                android:id="@+id/txt_return_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:text="08 April 2019"
+                                android:textColor="@color/red_font"
+                                android:textSize="@dimen/_11sdp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/txt_return_day"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:text="Tuesday"
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_11sdp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingTop="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_10sdp">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/_40sdp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:paddingTop="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_5sdp">
+
+
+                                <TextView
+                                    android:id="@+id/txt_from_time_return"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="13:00"
+                                    android:textColor="@color/red_font"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+
+                            <FrameLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="@dimen/_40sdp"
+                                    android:src="@drawable/ic_bus_tour" />
+
+                                <TextView
+                                    android:id="@+id/txt_duration_return"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom|center"
+                                    android:gravity="center"
+                                    android:text="8hrs 10min"
+                                    android:textColor="@color/grey_font"
+                                    android:textSize="@dimen/_10sdp"
+                                    android:textStyle="bold" />
+                            </FrameLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/_40sdp"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:paddingTop="@dimen/_10sdp">
+
+
+                                <TextView
+                                    android:id="@+id/txt_to_time_return"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="15:00"
+                                    android:textColor="@color/red_font"
+                                    android:textSize="@dimen/_12sdp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/_10sdp"
+                            android:paddingRight="@dimen/_10sdp"
+                            android:paddingBottom="@dimen/_5sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingBottom="@dimen/_2sdp"
+                                android:text="Departure Time"
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_12sdp" />
+
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="right"
+                                android:paddingBottom="@dimen/_2sdp"
+                                android:text="Arrival Time"
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_12sdp" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:alpha="0.5"
+                        android:background="@color/black_font" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_7sdp"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp">
+
+                            <ImageView
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_25sdp"
+                                android:padding="@dimen/_2sdp"
+                                android:src="@drawable/ic_seat" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/_5sdp"
+                                android:paddingRight="@dimen/_15sdp"
+                                android:text="Seat"
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:id="@+id/txt_num_seat"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="5"
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_18sdp" />
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="match_parent"
+                            android:alpha="0.5"
+                            android:background="@color/black_font" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:paddingTop="@dimen/_5sdp"
+                            android:paddingBottom="@dimen/_5sdp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:paddingLeft="@dimen/_10sdp"
+                                android:paddingRight="@dimen/_10sdp"
+                                android:text="Fare"
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_12sdp" />
+
+                            <TextView
+                                android:id="@+id/txt_fare"
+                                android:layout_width="@dimen/_70sdp"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:paddingRight="@dimen/_5sdp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/black_font"
+                                android:textSize="@dimen/_18sdp" />
+
+                            <ImageView
+                                android:id="@+id/imgv_information"
+                                android:layout_width="@dimen/_25sdp"
+                                android:layout_height="@dimen/_25sdp"
+                                android:padding="@dimen/_2sdp"
+                                android:src="@drawable/info" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:alpha="0.5"
+                        android:background="@color/black_font" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingRight="@dimen/_5sdp"
+                        android:paddingLeft="@dimen/_5sdp"
+                        android:paddingTop="@dimen/_5sdp">
+
+                        <ImageView
+                            android:id="@+id/imgv_logo"
+                            android:layout_width="@dimen/_25sdp"
+                            android:layout_height="@dimen/_25sdp" />
+
+                        <TextView
+
+                            android:id="@+id/txt_cmpny_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:singleLine="true"
+                            android:textColor="@color/black_font"
+                            android:textSize="@dimen/_12sdp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_18sdp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ticket" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_dwnl_tkt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/_5sdp">
+
+                <ImageView
+                    android:id="@+id/imgv_bottom"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:padding="@dimen/_1sdp"
+                    android:src="@drawable/download" />
+
+                <TextView
+                    android:id="@+id/txt_bottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text=""
+                    android:textColor="@color/red_font"
+                    android:textSize="@dimen/_12sdp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

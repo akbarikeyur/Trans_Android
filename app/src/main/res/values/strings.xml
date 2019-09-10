@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">C-Trans</string>
+
+    <string name="merchant_privacy">https://www.example.com/privacy</string>
+    <string name="merchant_user_agreement">https://www.example.com/legal</string>
+    <string name="paypal_payment_currency">USD</string>
+    <string name="payment_hbeen_cancelled">Payment has been cancelled</string>
+    <string name="error_occurred">error occurred</string>
+
+    <string name="try_again">Try Again</string>
+
+
+    <string name="hint_phone">Mobile Number</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_cnfrm_pass">Confirm Password</string>
+    <string name="hint_refrel">Referral Code (Optional)</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_reg">REGISTER</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="reg_here">Register Here</string>
+    <string name="log_in_here">LogIn Here</string>
+    <string name="term_condition">Terms &amp; Condition</string>
+    <string name="state_list">State List</string>
+    <string name="state">State</string>
+
+    <string name="app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="intestrial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="reward_id">ca-app-pub-3940256099942544/5224354917</string>
+
+    <string name="menu_bookin_history">Booking History</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_terms_condition">Terms &amp; Condition</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">Ok</string>
+    <string name="alert">Alert !</string>
+    <string name="are_you_sure_logout">You want to logout.</string>
+    <string name="share_app">Share App</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app_desc">Share this app and earn 100 credits for each friends who join with you via refer code.</string>
+    <string name="network">Internet Connection not Available!</string>
+    <string name="arrive">Arrive</string>
+    <string name="depart">Depart</string>
+    <string name="departure">Departure</string>
+    <string name="continue_without_login">Continue without Login</string>
+    <string name="login">Login</string>
+    <string name="get_moving_with_us">Get moving with us</string>
+    <string name="hint_enter_email">Enter your Email</string>
+    <string name="email">Email</string>
+    <string name="enter_veri_code">Enter verification code</string>
+    <string name="pls_enter_veri_code">Please enter verification code</string>
+    <string name="code_send_to_your_email">A text message with a verification code was just sent to your Email.</string>
+    <string name="not_get_code">Didn\'t get a code ?</string>
+    <string name="done">Done</string>
+    <string name="search_bus">Search Bus</string>
+    <string name="one_way">One Way</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="returnn">Return</string>
+    <string name="how_many_seat">Number of seats you need:</string>
+    <string name="special_need">Special Needs</string>
+    <string name="proceed">PROCEED</string>
+    <string name="selected_seats">Selected Seat</string>
+    <string name="booking_for">Booking for</string>
+    <string name="book_round_trip">Book round Trip \nfor great saving </string>
+    <string name="cancellation_policy">Cancellation policy Clarification: Once completed, Ctrans reservations cannot be canceled or refunded, but they can be traded in for another journey up to 3 hours before your original scheduled departure.
+Ctrans is not responsible for delays or cancellations caused by traffic, road conditions, weather or other causes over which it has no control.
+Alternatively where Ctrans fails to provide on time-reliable service for reasons wholly within our control refunds, or alternative travel arrangements, may be offered.</string>
+    <string name="do_you_need_seat_for">Do you need a seat for a disabled traveler on this trip?</string>
+    <string name="for_wheel_chair">Cost of wheelchair access is the same as cost for a regular seat. Space will take up 8 seats and 4 rows.</string>
+    <string name="book_now">Book Now</string>
+    <string name="submit">Submit</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="ticket_confirmation">Your ticket will be send to your registered Email ID.</string>
+    <string name="payment_option">Payment Option</string>
+    <string name="how_would_pay">How would you like to pay?</string>
+    <string name="choose_pay_option">Choose Payment Option</string>
+    <string name="journy_details">Journey Details</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="past">Past</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_conditions">Terms &amp; Conditions</string>
+    <string name="do_you_want_to">Do you want to cancel this booking.</string>
+    <string name="about_desc">C-Trans Lines by Cooley Transportation LLC is a new intercity bus line established, owned, and operated by Americans to give customers low-cost and safe ground transportation. C-Trans Lines contracts with small American bus companies to develop continuous growth in American transportation. C-Trans Lines is here to add to the American history.</string>
+    <string name="terms_desc">By using this app you agree to the following terms and conditions. If the ticket is unused and/or if you miss your trip, no refund or compensation will be provided. The cancellation request must be made at least 3 hours before the scheduled departure of the service (conditions may apply).\nIf prices increase or decrease after the purchase, we will not charge or refund the difference in price.\n\nSeating is first come, first serve.\n\nApplicable discounts become invalid once the ticket is purchased.\n\nPurchased tickets cannot be transferred to another person.\n\nAnyone under the age of 18 is considered a minor. Children ages 16 and under are not allowed on board without an adult (18+).\n\nAlthough Ctrans will make an effort to provide internet from the beginning until the end of your trip, please keep in mind that you might experience poor or no connection at all in some areas. The service is provided by a third party and thus there will be no compensations or refunds for internet connectivity issues.\n\nIf the service is delayed for external factors (traffic, weather and/or accidents) refunds will not be provided.\n\nCtrans is not responsible for any extra charge caused to the passengers if they miss any other transportation service due to a bus service delay. It is exclusively the passenger’s responsibility to arrange the bus trip according to the other connecting transportation departure time, taking into account that there could be some kind of inconvenient, delay, traffic or accident that may delay their arrival.\n\nDogs and other animals are not permitted on any Ctrans service, with the exception of service animals, that must meet the definition and requirements set by the ADA.\n\nA refund and/or compensation will not be provided for a delay of less than an hour.\n\nIf we have reason to suspect fraudulent use of booking references, a ticket transfer to another person, or other abuse, we reserve the right to refuse travel. No refund will be given in relation to fraudulent use of booking references.\n\nPassengers traveling with Ctrans are advised that reference/ticket numbers should be presented to the bus driver, when requested, in either a printed format, or displayed on a mobile phone or tablet when requested. This measure will allow us to check your reference quickly and efficiently. Also, a Photo ID must be presented to board the bus. If the ID is not shown when requested by the driver, the company reserves the right to refuse boarding.\n\nIf a bus has been cancelled due to operational issues, or the schedule has changed for some reason, an email notification will be sent to passengers, to the address provided at the moment of the purchase.\n\nCtrans will not return to a previous location to pick up passengers.\n\nIf a passenger requests a change for a lower price ticket, time or class, Ctrans will not reimburse the price difference.\n\nIn case that an incident/issue occurs during a trip, the passenger has until 5 business days after the trip to file a complaint. After that period, no claim will be filed for the case.\n\nThe buses only stop to pick up/drop off passengers in the different locations. It is not allowed to get out of the unit, with the only exception that the bus driver indicates it. If you leave without authorization we are not responsible for missing the bus.\n\nPassenger must get on board at pick up location described on purchased ticket. No passenger will be allowed on board if departure location on ticket does not match actual pick up location of the passenger.\n\nCtrans reserves the right to admission. The driver is allowed to remove a passenger from the vehicle if the passenger presents a threat to other passengers or Ctrans’ personnel.\n\nNo smoking allowed on board; it’s the law.\n\nAbsolutely no alcohol, drugs, or weapons anywhere on the bus. Passengers who violate this will be removed from the coach and will be subject to a fine.\n\nIf Ctrans has a reason to suspect of a fraudulent ticket, we reserve the right to refuse boarding the vehicle. Also, no refund nor credit will be provided for a ticket refused due to fraud.</string>
+
+
+    <string name="your_message">Your message was successfully submitted, someone will get back to you shortly</string>
+
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_phone">Enter phone number</string>
+    <string name="enter_comment">Enter comment or question</string>
+    <string name="enter_valid_email">Please enter valid email address</string>
+    <string name="enter_valid_phone">Please enter valid phone number</string>
+</resources>
